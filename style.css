@@ -10,19 +10,18 @@ body {
     width: 100%;
 }
 
-main {
-    
-    display:inline-block;
+main {   
+    display:flex;
     height: 100vh;
-    
     position: relative;
+    margin: 0px;
 }
 
 main > section img {
     height: 300px;
     margin: 15px 0;
     width: 300px;
-    display:inline-block;
+    display:flex;
 }
 
 main > section button {
@@ -37,7 +36,6 @@ main > section button {
     line-height: 15px;
     padding: 9px 23px;
     text-transform: uppercase;
-    
 }
 
 #detalhes-container {
